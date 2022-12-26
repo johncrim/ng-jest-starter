@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "7e066299-def0-470c-bb75-1b63c1437357"
+  },
   "version": 1,
   "newProjectRoot": "libs",
   "projects": {
@@ -26,21 +29,8 @@
             "tsConfig": "libs/ui-lib/tsconfig.karma-spec.json",
             "karmaConfig": "libs/ui-lib/karma.conf.js"
           }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "libs/ui-lib/tsconfig.lib.json",
-              "libs/ui-lib/tsconfig.karma-spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
-          }
         }
       }
     }
-  },
-  "defaultProject": "ui-lib"
+  }
 }

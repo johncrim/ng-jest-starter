@@ -5,7 +5,21 @@ This is an Angular starter project using Jest, with support for debugging Jest t
 This starter project contains a single library (`ui-lib`), and no angular apps. It contains both Karma tests (`*.karma-spec.ts`) and Jest tests (`*.spec.ts`), but no
 Protractor or other e2e tests.
 
-This project was created using `ng new ng-jest`, then changes were made to use [`jest-preset-angular`](https://github.com/thymikee/jest-preset-angular); and changes were made to enable VS Code debugging and Chrome debugging. The git history for this project should show a minimal set of changes for adding this developer utility.
+This project was created using `ng new`, then changes were made to use [`jest-preset-angular`](https://github.com/thymikee/jest-preset-angular); and changes were made to enable VS Code debugging and Chrome debugging. The git history for this project should show a minimal set of changes for adding this developer utility.
+
+## Running Tests
+
+Run Jest tests:
+
+```sh
+yarn test
+```
+
+Run Karma tests:
+
+```sh
+yarn test
+```
 
 ## Debugging Jest tests in Visual Studio Code
 

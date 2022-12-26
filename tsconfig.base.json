@@ -14,7 +14,7 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "forceConsistentCasingInFileNames": true,
-    "target": "es2015",
+    "target": "es2020",
     "module": "es2020",
     "types": [
       "tslib"

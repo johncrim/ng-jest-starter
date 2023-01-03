@@ -27,7 +27,10 @@
           "options": {
             "main": "libs/ui-lib/test/karma/test.ts",
             "tsConfig": "libs/ui-lib/tsconfig.karma-spec.json",
-            "karmaConfig": "libs/ui-lib/karma.conf.js"
+            "karmaConfig": "libs/ui-lib/karma.conf.js",
+            "include": [
+              "**/*.karma-spec.ts"
+            ]
           }
         }
       }

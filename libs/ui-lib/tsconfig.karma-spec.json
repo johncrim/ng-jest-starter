@@ -3,7 +3,7 @@
   "compilerOptions": {
     "outDir": "../../dist/out-tsc/libs/ui-lib/karma",
     "types": [
-      "jest", /* Use jest instead of jasmine, b/c including @types/jasmine breaks jest compilation. */
+      "jasmine",
       "node"
     ]
   },

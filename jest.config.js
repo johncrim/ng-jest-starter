@@ -7,7 +7,7 @@ module.exports = {
     "**/+(*.)+(spec|test).+(ts|js)?(x)"
   ],
   cacheDirectory: './.jest-cache',
-  roots: [/*'<rootDir>/apps/',*/ '<rootDir>/libs/'],
+  roots: ['<rootDir>/apps/', '<rootDir>/libs/'],
   reporters: [
     'default',
     // ['jest-junit', {

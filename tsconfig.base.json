@@ -30,6 +30,9 @@
     "paths": {
       "ui-lib": [
         "dist/ui-lib"
+      ],
+      "data-access": [
+        "dist/data-access"
       ]
     }
   },
